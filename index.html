@@ -1,64 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<title>Daniel Martinez Olivas</title>
+		<style type="text/css">
+			.container-full {
+				margin: 0 auto;
+				width: 100%;
+			}
+		</style>
+	</head>
 
-<head>
-	<title>Daniel Martinez Olivas</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="tachyons.min.css">
-	<style type="text/css">
-		a:link { text-decoration: none; }
-        a:hover,a:active { text-decoration: underline; }
-        .btn.bg-dark-gray:link { background-color: #111; transition: background-color .15s ease-out; }
-        .btn.bg-dark-gray:hover, .btn.bg-dark-gray:active { background-color: #444; transition: background-color .175s ease-out; }
-        .cta:link { transition: opacity .15s ease-out; opacity: 1; }
-        .cta:hover,.cta:active { transition: opacity .15s ease-in; opacity: 0.7; }
-        .gray-link        { color: #777; }
-        .gray-link:hover  { color: #444; }
-		.hello { font-size: 75px }
-		.intro { font-size: 15px }
-	</style>
-</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">Daniel Martinez Olivas</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
+			<div class="collapse navbar-collapse" id="navbarColor02">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active"><a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Other</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
+				</ul>
+			</div>
+		</nav>
 
-<body>
+		<div class="jumbotron jumbotron-fluid text-center">
+			<div class="container">
+				<h1 class="display-7">Hey there!👋🏻</h1>
+				<p class="lead">I'm Daniel Martínez. This are some of the projects I've been working recently:</p>
+			</div>
+		</div>
 
-<header class="tc tl-ns phm pts pbx phx-ns pt-ns bg-white bg-cv">
-    <div class="mw8 cf t-center">
-        <nav class="db wi-100 bb mbl">
-            <ul class="list dib tr-ns pln mln mtm">
-            <li class="db dib-ns mbm mbn-ns"><a class="link phn prm-ns bold f3 f4-ns ttu" href="#home">Daniel Martinez</a></li>
-            <li class="dib"><a class="link prm phm-ns f4" href="#projects">Projects</a></li>
-            <li class="dib"><a class="link phm f4" href="#blog">Blog</a></li>
-            <li class="dib"><a class="link phm f4" href="#others">Others</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+		<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+			<div class="card-header">Python</div>
+			<div class="card-body">
+				<h4 class="card-title">Maps2DXF</h4>
+				<p class="card-text">Python package to convert Shapefiles to DXF format.</p>
+			</div>
+		</div>
 
-	<div class="dt w-100 ma0 pa4">
-		<p class="tc b hello mb0">Hey there!👋🏻</p>
-		<p class="ma0 tc b intro code">I'm Daniel. This are some of the projects I've been working recently:</p>
-		<p class="ma0 tc b intro code">======================================================================</p>
-	</div>
+		<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+			<div class="card-header">Go</div>
+			<div class="card-body">
+				<h4 class="card-title">Poly</h4>
+				<p class="card-text">Go CLI app to optimize the shape of n polygons for maximizing the resemblance to a given picture.</p>
+			</div>
+		</div>
 
-	<div class="dt w-100 ph5 pv3 ma0 bg-orange">
-		<a class="grow dib f3-ns b tc no-underline bg-black-30 pa4 ma2 code fl w-20 black-70" href="#">Maps</a>
-		<a class="grow dib f3-ns b tc no-underline bg-black-30 pa4 ma2 code fl w-20 white" href="#">Polygons</a>
-	</div>
+<!-- 		<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+			<div class="card-header">Header</div>
+			<div class="card-body">
+				<h4 class="card-title">Success card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</div> -->
 
-	<div class="pa5 w-100 bg-orange">
-		<p class="f1 fw7 fl w-10 pa2 code">Maps</p>
-		<p class="pa4 fl w-50 pa2 code">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-		Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-</body>
+<!-- 		<div class="card text-white bg-danger mb-3" style="max-width: 20rem;">
+			<div class="card-header">Header</div>
+			<div class="card-body">
+				<h4 class="card-title">Danger card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</div> -->
 
-<footer class="w-100 bw1 bg-orange">
-  <a href="mailto:" class="link b f3 f2-ns dim light-gray lh-solid">danielmartinezolivas@gmail.com</a>
-  <div class="mt5">
-    <a href="/language/" title="Language" class="f6 dib pr2 mid-gray dim">Contact</a>
-  </div>
-</footer>
+<!-- 		<div class="card text-white bg-warning mb-3" style="max-width: 20rem;">
+			<div class="card-header">Header</div>
+			<div class="card-body">
+				<h4 class="card-title">Warning card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</div> -->
 
+<!-- 		<div class="card text-white bg-info mb-3" style="max-width: 20rem;">
+			<div class="card-header">Header</div>
+			<div class="card-body">
+				<h4 class="card-title">Info card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</div> -->
+
+<!-- 		<div class="card bg-light mb-3" style="max-width: 20rem;">
+			<div class="card-header">Header</div>
+			<div class="card-body">
+				<h4 class="card-title">Light card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</div> -->
+
+<!-- 		<div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
+			<div class="card-header">Header</div>
+			<div class="card-body">
+				<h4 class="card-title">Dark card title</h4>
+				<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			</div>
+		</div> -->
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"
+		>
+		</script>
+		<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+		integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+		crossorigin="anonymous"
+		>
+		</script>
+		<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+		integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+		crossorigin="anonymous"
+		>
+		</script>
+	</body>
 </html>
