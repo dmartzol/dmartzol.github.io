@@ -1,8 +1,6 @@
 # dmartzol.github.io
 
-# TODO - Fix links
-
-### TODO
+### TO DO
 
 - [ ] Fix broken links
 - [ ] Minimize css
