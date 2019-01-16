@@ -12,12 +12,14 @@
 		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
 		crossorigin="anonymous"
 		>
+		<!-- Icons -->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<!-- Bootsrap themes -->
 		<!-- <link rel="stylesheet" href="static/cyborg.bootstrap.css"> -->
-		<!-- <link rel="stylesheet" href="static/sandstone.bootstrap.css"> -->
+		<!-- <link rel="stylesheet" href="static/cyborg.bootstrap.min.css"> -->
+		<!-- <link rel="stylesheet" href="static/sandstone.bootstrap.min.css"> -->
 		<!-- <link rel="stylesheet" href="static/darkly.bootstrap.css"> -->
-		<!-- <link rel="stylesheet" href="static/litera.bootstrap.css"> -->
 		<link rel="stylesheet" href="static/journal.bootstrap.css">
-		<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
 
 		<title>Daniel Martinez Olivas</title>
 		<style type="">
@@ -46,11 +48,30 @@
 			.border-other{
 			    border-color:#39CCCC !important;
 			}
+/*			.footer {
+			  background: #061D25;
+			  padding: 10px 0;
+			}
+			.footer a {
+			  color: #70726F;
+			  font-size: 20px;
+			  padding: 10px;
+			  border-right: 1px solid #70726F;
+			  transition: all .5s ease;
+			}*/
+			.footer a:first-child {
+			  border-left: 1px solid #70726F;
+			}
+			.footer a:hover {
+			  color: white;
+			}
 		</style>
 	</head>
 
 	<body>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+		<!-- Navigation Bar -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="#">Daniel Martinez Olivas</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
@@ -58,8 +79,10 @@
 
 			<div class="collapse navbar-collapse" id="navbarColor02">
 				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active"><a class="nav-link" href="#">Software projects <span class="sr-only">(current)</span></a></li>
-					<li class="nav-item"><a class="nav-link" href="#">Other projects</a></li>
+					<li class="nav-item active"><a class="nav-link" href="#">Programming projects <span class="sr-only">(current)</span></a></li>
+					<li class="nav-item"><a class="nav-link" href="#">3D Printing</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Woodworking</a></li>
+					<li class="nav-item"><a class="nav-link" href="#">Machining</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">About</a></li>
 				</ul>
 			</div>
@@ -145,9 +168,10 @@
 					<h5 class="">Poly</h5>
 					<span class="badge badge-dark">Go</span>
 				</div>
+				<!-- <img class="card-img-top" src="images/strawberry/straw.png" alt="200 poligons"> -->
 				<img class="card-img-top" src="images/strawberry/p200-n80000.svg" alt="200 poligons">
 				<div class="card-body">
-					<p class="card-text">Go CLI app to optimize the shape of n polygons for maximizing the resemblance to a given picture.</p>
+					<p class="card-text">Go CLI app to optimize the shape of n polygons for maximizing the resemblance to a any given picture.</p>
 					<a href="https://github.com/dmartzol/poly" class="btn btn-secondary">More on GitHub</a>
 				</div>
 			</div>
@@ -158,7 +182,7 @@
 					<h5 class="">Maps2DXF</h5>
 					<span class="badge badge-dark">Python</span>
 				</div>
-				<img class="card-img-top" src="images/europe.png" alt="Europe">
+				<img class="card-img-top" src="images/europe/europe.png" alt="Europe">
 				<div class="card-body">
 					<!-- <h5 class="card-title">Maps2DXF</h5> -->
 					<p class="card-text">Python package to convert Shapefiles to DXF format.</p>
@@ -172,10 +196,10 @@
 					<h5 class="">Delaunay</h5>
 					<span class="badge badge-dark">Python</span>
 				</div>
-				<img class="card-img-top" src="images/clint.svg" alt="Clint Eastwood">
+				<img class="card-img-top" src="images/clint/clint.png" alt="Clint Eastwood">
 				<div class="card-body">
 					<!-- <h5 class="card-title">Maps2DXF</h5> -->
-					<p class="card-text">Python package to apply a delaunay triangularization to an image.</p>
+					<p class="card-text">Python package to apply a delaunay triangularization to any image and make it available as SVG.</p>
 					<a href="https://github.com/dmartzol/delaunay" class="btn btn-secondary">More on GitHub</a>
 				</div>
 			</div>
@@ -207,11 +231,33 @@
 
 
 		<!-- Jumbotron -->
-		<div class="jumbotron jumbotron-fluid text-center mb-0">
+<!-- 		<div class="jumbotron jumbotron-fluid text-center mb-0">
 			<div class="container">
 				<h4> <a class="link" href="mailto:danielmartinezolivas@gmail.com">danielmartinezolivas@gmail.com</a></h4>
 			</div>
-		</div>
+		</div> -->
+
+		<!-- Footer -->
+<!-- 		<footer class="footer bg-dark">
+			<div class="container text-center">
+				<a href="https://twitter.com/SrDans"><i class="fa fa-twitter"></i></a>
+				<a href="https://github.com/dmartzol"><i class="fa fa-github"></i></a>
+			</div>
+		</footer> -->
+
+		<!-- Footer -->
+		<!-- <footer class="bg-secondary">
+			<div class="container">
+				<div class="row ">
+					<div class="col-md-12 d-flex justify-content-center bg-primary py-3">
+						<div class="mb-5">
+							<a href="https://twitter.com/SrDans"><i class="fa fa-twitter"></i></a>
+							<a href="https://github.com/dmartzol"><i class="fa fa-github"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer> -->
 
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -234,4 +280,5 @@
 		>
 		</script>
 	</body>
+
 </html>
