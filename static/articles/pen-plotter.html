@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Michroma">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=roboto">
+<head>
+	<title>Daniel Martinez Olivas</title>
+</head>
+<style type="text/css">
+.michroma {
+	font-family: 'Michroma', serif;
+}
+.roboto {
+	font-family: 'Roboto', serif;
+}
+</style>
+<body class="h-100">
+	<article class="baskerville pb5">
+
+		<header class="avenir tc-l ph3 ph4-ns pt4 pt5-ns">
+			<h1 class="f3 f2-m f-subheadline-l measure lh-title fw1 mt0">
+				Building a Pen Plotter
+			</h1>
+			<time class="f5 f4-l db fw1 baskerville mb4"> March 7th, 2019</time>
+			<img class="w-100 dib measure f3" src="../../images/plotter/plotter-0.jpg">
+        </header>
+
+		<div class="ph3 ph4-m ph5-l">
+			<p class="f4 mb4 center measure lh-copy">
+                Since I discovered people were playing with pen plotters I got obsessed with this. 
+                Nowadays we have much faster and reliable printers, but some people like pen plotters because drawings look good with them.
+                Drawing with a pen over a good quality Bristol paper looks and feels different. Also it is just...  fun!
+			</p>
+			<p class="f4 mb4 center measure lh-copy">
+                I decided to build my own. Here are a few pictures and comments about how I did it.
+            </p>
+            
+			<div class="measure db center f5 f4-ns lh-copy">
+				<p>
+                    I decided to use the open source
+                    [EiBotBoard](https://shop.evilmadscientist.com/productsmenu/188) from Evil Mad Scientist to control the stepper motors.
+                    There was already some software written for it and I wouldn't have to reinvent the wheel after building everything.
+                </p>
+                <p>
+                    First I modeled almost everything in Fusion 360. Here is a render of it:
+                </p>
+				<img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-1.jpg">
+				<p>
+                    Then I got all the main structure from [OpenBuilds](https://openbuildspartstore.com)). This part of the plotter is very important for rigidity and accuracy.
+				</p>
+				<img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-2.jpg">
+				<p>
+                    And I machined the aluminum carriage out of a block of aluminum.
+                    This part moves the pen up and down and needs to move up and down without
+                    in a straight line with virtually no wobble:
+				</p>
+				<img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-3.jpg">
+                <img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-4.jpg">
+                <img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-5.jpg">
+				<p>
+                    The plotter works as intended and I'm having fun with it,
+                    although I'm thinking in upgrade the pen lifter to make it even more precise.
+                    Here are some pics of it:
+                </p>
+                <img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-6.jpg">
+                <img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-7.jpg">
+                <img class="db w-100 mt4 mt5-ns" src="../../images/plotter/plotter-0.jpg">
+			</div>
+		</div>
+	</article>
+
+	<!-- FOOTER -->
+
+	<footer class="pv5 ph3 ph5-ns tc">
+		<a class="link near-black hover-silver dib h2 w2 mr3" target="_blank" href="https://github.com/dmartzol" title="GitHub">
+			<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/github.svg" />
+		</a>
+		<a class="link hover-silver near-black dib h2 w2 mr3" target="_blank" href="https://www.instagram.com/inkstreak/" title="Instagram">
+			<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/instagram.svg" />
+		</a>
+
+		<!-- <a class="link hover-silver near-black dib h2 w2 mr3" target="_blank" href="#" title="Stack Overflow">
+			<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/stackoverflow.svg" />
+		</a> -->
+
+		<!-- <a class="link hover-silver near-black dib h2 w2 mr3" target="_blank" href="#" title="Slack">
+			<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/slack.svg" />
+		</a> -->
+
+		<a class="link hover-silver near-black dib h2 w2 mr3" target="_blank" href="https://www.linkedin.com/in/martinezolivas/" title="LinkedIn">
+			<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" />
+		</a>
+
+		<a class="link hover-silver near-black dib h2 w2 mr3" target="_blank" href="https://twitter.com" title="Twitter">
+			<img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/twitter.svg" />
+		</a>
+
+	</footer>
+</body>
+</html>
