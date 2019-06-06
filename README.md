@@ -3,5 +3,5 @@
 ### TO DO
 
 - [ ] Resize images
-- [ ] Minimize css
-- [ ] Fix broken links
+- [X] Minimize css
+- [X] Fix broken links
