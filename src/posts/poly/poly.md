@@ -1,0 +1,9 @@
+---
+title: "Poly"
+date: "2019-01-22"
+---
+
+![polygonal strawberry image](p200-n80000.png)
+
+Go CLI app to optimize the shape of n polygons for maximizing the resemblance to a any given picture.
+More on [Github](https://github.com/dmartzol/poly)
