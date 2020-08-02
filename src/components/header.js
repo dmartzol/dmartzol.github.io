@@ -15,13 +15,19 @@ const Header = () => {
 
     return (
         <header className={headerStyles.header}>
-            <h1><Link className={headerStyles.title} to="/">
-                {data.site.siteMetadata.author}
-            </Link></h1>
+            <h1>
+                <Link className={headerStyles.title} to="/">
+                    {data.site.siteMetadata.author}
+                </Link>
+            </h1>
             <nav>
                 <ul className={headerStyles.navList}>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/">Home</Link></li>
-                    <li><Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about">About me</Link></li>
+                    <li>
+                        <Link
+                            className={headerStyles.navItem}
+                            activeClassName={headerStyles.activeNavItem}
+                            to="/about">About me</Link>
+                    </li>
                 </ul>
             </nav>
         </header>
