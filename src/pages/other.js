@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Section from '../components/section'
 import Posts from '../components/posts'
 
-export default function AboutPage({ data}) {
+export default function AboutPage({ data }) {
     const woodworking = data.woodworking.edges
     const cnc = data.cnc.edges
     const plotter = data.plotter.edges
