@@ -1,6 +1,7 @@
 ---
 title: "dxfmaps"
 date: "2019-06-27"
+thumbnail: "europe.png"
 ---
 
 ![Map of Europe](europe.png)

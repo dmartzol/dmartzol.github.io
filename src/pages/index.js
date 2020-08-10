@@ -2,8 +2,10 @@ import React from "react"
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import indexStyles from './index.module.scss'
+import Img from 'gatsby-image'
 
-const IndexPage = () => {
+
+export default function IndexPage() {
   const data = useStaticQuery(graphql`
   query {
     allMarkdownRemark {
@@ -12,6 +14,13 @@ const IndexPage = () => {
           frontmatter {
             title
             date
+            thumbnail {
+              childImageSharp {
+                fixed(width: 200, height: 200) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
           }
           fields {
             slug
@@ -34,6 +43,14 @@ const IndexPage = () => {
                 <Link to={`/${edge.node.fields.slug}`}>
                   <h2>{edge.node.frontmatter.title}</h2>
                   <p>{edge.node.frontmatter.date}</p>
+                  <div className="thumb">
+                    {edge.node.frontmatter.thumbnail && (
+                      <Img
+                        fixed={edge.node.frontmatter.thumbnail.childImageSharp.fixed}
+                        className="post-thumbnail"
+                      />
+                    )}
+                  </div>
                 </Link>
               </li>
             )
@@ -44,4 +61,3 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage

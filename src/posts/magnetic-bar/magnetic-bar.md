@@ -1,6 +1,7 @@
 ---
 title: "Magnetic Bar"
 date: "2019-02-19"
+thumbnail: "mag-0.jpg"
 ---
 
 ![Magnetic Bar](mag-0.jpg)

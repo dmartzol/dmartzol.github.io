@@ -1,6 +1,7 @@
 ---
 title: "Lissajous Curve"
 date: "2019-01-22"
+thumbnail: "harmonograp.jpg"
 ---
 
 ![Lissajous curve image](harmonograp.jpg)

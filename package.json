@@ -14,19 +14,26 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.23.12",
+    "gatsby-image": "^2.4.14",
     "gatsby-plugin-sass": "^2.3.12",
-    "gatsby-plugin-sharp": "^2.6.24",
+    "gatsby-plugin-sharp": "^2.6.25",
     "gatsby-remark-images": "^3.3.23",
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.3.23",
     "gatsby-transformer-remark": "^2.8.27",
-    "node-sass": "^4.14.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "gatsby-transformer-sharp": "^2.5.12",
+    "node-sass": "^4.14.1"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "@babel/core": "^7.11.1",
+    "@mdx-js/react": "^1.6.16",
+    "acorn": "^6.4.1",
+    "gatsby": "^2.24.37",
+    "node-fetch": "^2.6.0",
+    "prettier": "2.0.5",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-refresh": "^0.8.3"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,7 @@
 ---
 title: "Poly"
 date: "2019-01-22"
+thumbnail: "p200-n80000.png"
 ---
 
 ![polygonal strawberry image](p200-n80000.png)

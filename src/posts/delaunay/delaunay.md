@@ -1,6 +1,7 @@
 ---
 title: "Delaunay"
 date: "2018-02-25"
+thumbnail: "clint.png"
 ---
 
 ![delaunay triangularization image](clint.png)

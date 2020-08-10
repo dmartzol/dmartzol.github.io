@@ -1,15 +1,8 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
   siteMetadata: {
-    title: 'Daniel Martinez Site',
+    title: 'Daniel Martinez',
     author: 'Daniel Martinez'
   },
-  /* Your site config here */
   plugins: [
     'gatsby-plugin-sass',
     {
@@ -19,6 +12,7 @@ module.exports = {
         path: `${__dirname}/src/`
       }
     },
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-transformer-remark',

@@ -1,6 +1,7 @@
 ---
 title: "Building A Pen Plotter"
 date: "2019-03-07"
+thumbnail: "plotter-1.jpg"
 ---
 
 Since I discovered people were playing with pen plotters I got obsessed with this. 

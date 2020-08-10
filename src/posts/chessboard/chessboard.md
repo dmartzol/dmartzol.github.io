@@ -1,6 +1,7 @@
 ---
 title: "Chessboard"
 date: "2019-02-19"
+thumbnail: "chess-0.jpg"
 ---
 
 ![Chessboard picture](chess-1.jpg)
