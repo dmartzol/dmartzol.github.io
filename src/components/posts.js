@@ -11,7 +11,7 @@ export default function Posts({ posts }) {
                     return (
                         <li className={indexStyles.post}>
                             <Link to={`/${edge.node.fields.slug}`}>
-                                <h2>{edge.node.frontmatter.title}</h2>
+                                <h3>{edge.node.frontmatter.title}</h3>
                                 <p>{edge.node.frontmatter.date}</p>
                                 <div className="thumb">
                                     {edge.node.frontmatter.thumbnail && (
