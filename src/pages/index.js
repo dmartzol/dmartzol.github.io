@@ -52,7 +52,7 @@ query IndexQuery {
           tags
           thumbnail {
             childImageSharp {
-              fixed(width: 200, height: 200) {
+              fixed(width: 300, height: 200) {
                 ...GatsbyImageSharpFixed
               }
             }
@@ -73,7 +73,7 @@ query IndexQuery {
           tags
           thumbnail {
             childImageSharp {
-              fixed(width: 200, height: 200) {
+              fixed(width: 300, height: 200) {
                 ...GatsbyImageSharpFixed
               }
             }
@@ -94,7 +94,7 @@ query IndexQuery {
           tags
           thumbnail {
             childImageSharp {
-              fixed(width: 200, height: 200) {
+              fixed(width: 300, height: 200) {
                 ...GatsbyImageSharpFixed
               }
             }
@@ -115,7 +115,7 @@ query IndexQuery {
           tags
           thumbnail {
             childImageSharp {
-              fixed(width: 200, height: 200) {
+              fixed(width: 300, height: 200) {
                 ...GatsbyImageSharpFixed
               }
             }
