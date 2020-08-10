@@ -2,6 +2,8 @@
 title: "Lissajous Curve"
 date: "2019-01-22"
 thumbnail: "harmonograp.jpg"
+tags: ["potter", "computer-art"]
+category: "plotter-drawings"
 ---
 
 ![Lissajous curve image](harmonograp.jpg)

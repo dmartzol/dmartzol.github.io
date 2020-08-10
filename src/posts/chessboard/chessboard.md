@@ -2,6 +2,8 @@
 title: "Chessboard"
 date: "2019-02-19"
 thumbnail: "chess-0.jpg"
+tags: ["woodworking", "chess", "games"]
+category: "woodworking"
 ---
 
 ![Chessboard picture](chess-1.jpg)

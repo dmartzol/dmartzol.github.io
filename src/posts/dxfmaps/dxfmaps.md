@@ -2,6 +2,8 @@
 title: "dxfmaps"
 date: "2019-06-27"
 thumbnail: "europe.png"
+tags: ["software", "python"]
+category: "software"
 ---
 
 ![Map of Europe](europe.png)

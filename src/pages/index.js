@@ -5,31 +5,11 @@ import indexStyles from './index.module.scss'
 import Img from 'gatsby-image'
 
 
-export default function IndexPage() {
-  const data = useStaticQuery(graphql`
-  query {
-    allMarkdownRemark {
-      edges {
-        node {
-          frontmatter {
-            title
-            date
-            thumbnail {
-              childImageSharp {
-                fixed(width: 200, height: 200) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
-          }
-          fields {
-            slug
-          }
-        }
-      }
-    }
-  }
-  `)
+export default function IndexPage({data}) {
+  const software = data.software.edges
+  const woodworking = data.woodworking.edges
+  const cnc = data.cnc.edges
+  const plotter = data.plotter.edges
 
   return (
     <Layout>
@@ -37,7 +17,7 @@ export default function IndexPage() {
       <h3>I'm Daniel Martinez. I love learning new stuff and I put together this simple website to show the projects I worked on.</h3>
       <ol className={indexStyles.posts}>
         {
-          data.allMarkdownRemark.edges.map((edge) => {
+          software.map((edge) => {
             return (
               <li className={indexStyles.post}>
                 <Link to={`/${edge.node.fields.slug}`}>
@@ -61,3 +41,93 @@ export default function IndexPage() {
   )
 }
 
+export const pageQuery = graphql`
+query IndexQuery {
+  software: allMarkdownRemark(filter: {frontmatter: {category: {eq: "software"}}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          date
+          tags
+          thumbnail {
+            childImageSharp {
+              fixed(width: 200, height: 200) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+  woodworking: allMarkdownRemark(filter: {frontmatter: {category: {eq: "woodworking"}}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          date
+          tags
+          thumbnail {
+            childImageSharp {
+              fixed(width: 200, height: 200) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+  plotter: allMarkdownRemark(filter: {frontmatter: {category: {eq: "plotter-drawings"}}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          date
+          tags
+          thumbnail {
+            childImageSharp {
+              fixed(width: 200, height: 200) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+  cnc: allMarkdownRemark(filter: {frontmatter: {category: {eq: "cnc"}}}) {
+    edges {
+      node {
+        frontmatter {
+          title
+          date
+          tags
+          thumbnail {
+            childImageSharp {
+              fixed(width: 200, height: 200) {
+                ...GatsbyImageSharpFixed
+              }
+            }
+          }
+        }
+        fields {
+          slug
+        }
+      }
+    }
+  }
+}
+
+
+`

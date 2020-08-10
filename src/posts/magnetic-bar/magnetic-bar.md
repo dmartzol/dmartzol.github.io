@@ -2,6 +2,8 @@
 title: "Magnetic Bar"
 date: "2019-02-19"
 thumbnail: "mag-0.jpg"
+tags: ["woodworking", "chess"]
+category: "woodworking"
 ---
 
 ![Magnetic Bar](mag-0.jpg)

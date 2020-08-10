@@ -2,6 +2,8 @@
 title: "Delaunay"
 date: "2018-02-25"
 thumbnail: "clint.png"
+tags: ["software", "python"]
+category: "software"
 ---
 
 ![delaunay triangularization image](clint.png)

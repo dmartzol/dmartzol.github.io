@@ -2,6 +2,8 @@
 title: "Hidden Box Joints"
 date: "2019-06-22"
 thumbnail: "Hidden.jpg"
+tags: ["software", "javascript"]
+category: "software"
 ---
 
 ![box joins image](Hidden.jpg)
