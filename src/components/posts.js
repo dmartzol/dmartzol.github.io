@@ -13,6 +13,7 @@ export default function Posts({ posts }) {
                             <Link to={`/${edge.node.fields.slug}`}>
                                 <h3>{edge.node.frontmatter.title}</h3>
                                 <p>{edge.node.frontmatter.date}</p>
+                                <p>{edge.node.frontmatter.description}</p>
                                 <div className="thumb">
                                     {edge.node.frontmatter.thumbnail && (
                                         <Img

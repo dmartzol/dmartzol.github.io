@@ -4,6 +4,7 @@ date: "2018-02-25"
 thumbnail: "clint.png"
 tags: ["software", "python"]
 category: "software"
+description: "Good ol' Delaunay triangulation"
 ---
 
 ![delaunay triangularization image](clint.png)

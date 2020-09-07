@@ -28,6 +28,7 @@ query IndexQuery {
           title
           date
           tags
+          description
           thumbnail {
             childImageSharp {
               fixed(width: 300, height: 200) {
