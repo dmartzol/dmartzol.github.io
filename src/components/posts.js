@@ -10,11 +10,11 @@ export default function Posts({ posts }) {
                 posts.map((edge) => {
                     return (
                         <li className={postsStyles.post}>
-                            <Link to={`/${edge.node.fields.slug}`}>
-                                <h3>{edge.node.frontmatter.title}</h3>
-                            </Link>
+                            <h3 className={postsStyles.title}>
+                                <Link to={`/${edge.node.fields.slug}`}>{edge.node.frontmatter.title}</Link>
+                            </h3>
                             <p className={postsStyles.date}>{edge.node.frontmatter.date}</p>
-                            <p>{edge.node.frontmatter.description}</p>
+                            <p className={postsStyles.description}>{edge.node.frontmatter.description}</p>
                             <div className="thumb">
                                 {edge.node.frontmatter.thumbnail && (
                                     <Img
