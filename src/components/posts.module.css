@@ -1,0 +1,32 @@
+.posts {
+    list-style-type: none;
+    margin: 0;
+}
+
+.date {
+    color: #777777;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.post > a {
+    background: #f4f4f4; /* remove me */
+    color: #353535;
+    display: block;
+    padding: 1rem 0 1rem 0;
+    text-decoration: none;
+}
+
+.post > h3 {
+    margin-bottom: 0;
+}
+
+.post >     p {
+    color: #777777;
+    font-size: .8rem;
+    font-style: italic;
+}
+
+.post {
+    margin: 1rem 0;
+}

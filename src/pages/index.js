@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Section from '../components/section'
 import Posts from '../components/posts'
+import './index.module.css'
 
 
 export default function IndexPage({ data }) {
