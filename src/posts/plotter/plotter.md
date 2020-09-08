@@ -4,6 +4,7 @@ date: "2019-03-07"
 thumbnail: "plotter-1.jpg"
 tags: ["potter", "machining"]
 category: "cnc"
+description: "I built my own pen plotter."
 ---
 
 Since I discovered people were playing with pen plotters I got obsessed with this. 

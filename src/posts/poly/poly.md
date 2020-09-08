@@ -4,6 +4,7 @@ date: "2019-01-22"
 thumbnail: "p200-n80000.png"
 tags: ["software", "go", "computer-art"]
 category: "software"
+description: "Go CLI app to optimize the shape of n polygons for maximizing the resemblance to a any given picture."
 ---
 
 ![polygonal strawberry image](p200-n80000.png)

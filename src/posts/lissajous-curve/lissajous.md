@@ -1,9 +1,10 @@
 ---
 title: "Lissajous Curve"
-date: "2019-01-22"
+date: "2019-05-22"
 thumbnail: "harmonograp.jpg"
 tags: ["potter", "computer-art"]
 category: "plotter-drawings"
+description: "This is pretty much the first plot I made with my plotter."
 ---
 
 ![Lissajous curve image](harmonograp.jpg)

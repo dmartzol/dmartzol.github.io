@@ -4,6 +4,7 @@ date: "2019-02-19"
 thumbnail: "chess-0.jpg"
 tags: ["woodworking", "chess", "games"]
 category: "woodworking"
+description: "My own walnut and maple end grain chessboard."
 ---
 
 ![Chessboard picture](chess-1.jpg)

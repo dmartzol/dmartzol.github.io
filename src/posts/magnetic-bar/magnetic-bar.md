@@ -4,6 +4,7 @@ date: "2019-02-19"
 thumbnail: "mag-0.jpg"
 tags: ["woodworking", "chess"]
 category: "woodworking"
+description: "In the picture you can see just a wooden bar with magnets inside that allows me to hang papers or pictures attached to a binder clip."
 ---
 
 ![Magnetic Bar](mag-0.jpg)

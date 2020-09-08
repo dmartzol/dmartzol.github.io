@@ -3,14 +3,25 @@
     margin: 0;
 }
 
-.date {
-    color: #777777;
-    font-size: .8rem;
-    font-style: italic;
+.post {
+    border-top: 0.1rem solid #e6e6e6;
+    /* border: 5px solid #333; */
+    margin: 1rem 0;
+    overflow: auto;
+}
+
+.titleContainer {
+    /* border: 5px solid #333; */
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.titleContainer h3, .titleContainer p {
+    display: inline;
 }
 
 .title {
-    padding: 1rem 0 1rem 0;
+    /* background: salmon; */
+    margin-right: 1rem;
 }
 
 .title > a {
@@ -22,20 +33,18 @@
     text-decoration: underline;
 }
 
-.post > a {
-    color: #353535;
-    padding: 1rem 0 1rem 0;
-    text-decoration: none;
+.date {
+    /* background: seagreen; */
+    color: #777777;
+    font-size: .8rem;
+    font-style: italic;
 }
 
 .thumbnail {
+    margin-left: 1rem;
+    float: right;
 }
 
 .description {
 
-}
-
-.post {
-    border-top: 0.1rem solid #e6e6e6;
-    margin: 1rem 0;
 }

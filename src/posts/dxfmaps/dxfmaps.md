@@ -4,6 +4,7 @@ date: "2019-06-27"
 thumbnail: "europe.png"
 tags: ["software", "python"]
 category: "software"
+description: "Python package to convert Shapefiles to DXF format."
 ---
 
 ![Map of Europe](europe.png)
