@@ -15,11 +15,10 @@ export default function Posts({ posts }) {
                             </h3>
                             <p className={postsStyles.date}>{edge.node.frontmatter.date}</p>
                             <p className={postsStyles.description}>{edge.node.frontmatter.description}</p>
-                            <div className="thumb">
+                            <div className="thumbnail">
                                 {edge.node.frontmatter.thumbnail && (
                                     <Img
                                         fixed={edge.node.frontmatter.thumbnail.childImageSharp.fixed}
-                                        className="post-thumbnail"
                                     />
                                 )}
                             </div>
