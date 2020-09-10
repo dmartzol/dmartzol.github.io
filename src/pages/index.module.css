@@ -68,7 +68,7 @@ html {
   }
   mark {
     background-color: #ff0;
-    color: #000;
+    color: #404040;
   }
   small {
     font-size: 80%;
@@ -201,7 +201,7 @@ html {
     box-sizing: inherit;
   }
   body {
-    color: hsla(0, 0%, 0%, 0.8);
+    color: #404040;
     font-family: sans-serif;
     font-weight: normal;
     word-wrap: break-word;

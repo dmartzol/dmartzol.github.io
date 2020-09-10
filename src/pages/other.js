@@ -38,7 +38,7 @@ query OtherQuery {
           description
           thumbnail {
             childImageSharp {
-              fixed(width: 300, height: 200) {
+              fixed(width: 300, height: 300) {
                 ...GatsbyImageSharpFixed
               }
             }
@@ -60,7 +60,7 @@ query OtherQuery {
           description
           thumbnail {
             childImageSharp {
-              fixed(width: 300, height: 200) {
+              fixed(width: 300, height: 300) {
                 ...GatsbyImageSharpFixed
               }
             }
@@ -82,7 +82,7 @@ query OtherQuery {
           description
           thumbnail {
             childImageSharp {
-              fixed(width: 300, height: 200) {
+              fixed(width: 300, height: 300) {
                 ...GatsbyImageSharpFixed
               }
             }

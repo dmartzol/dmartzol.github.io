@@ -3,9 +3,13 @@
 }
 
 .title {
-    color: #353535;
-    font-size: 2rem;
+    color: #404040;
+    font-size: 1.5rem;
     text-decoration: none;
+}
+
+.title:hover {
+    color: #aa2929;
 }
 
 .nav-list {
