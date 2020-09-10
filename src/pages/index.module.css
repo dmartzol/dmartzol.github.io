@@ -1,5 +1,9 @@
 /* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
 
+.section {
+background-color: #404040;
+}
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;

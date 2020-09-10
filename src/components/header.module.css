@@ -3,9 +3,12 @@
 }
 
 .title {
-    color: #404040;
+    background-color: #404040;
+    /* color: #404040; */
+    color: #FFFFFF;
     font-size: 1.5rem;
     text-decoration: none;
+    padding: 0.2rem;
 }
 
 .title:hover {

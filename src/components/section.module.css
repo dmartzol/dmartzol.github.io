@@ -1,0 +1,10 @@
+.section {
+    margin-top: 5rem;
+}
+
+.title {
+    background-color: #404040;
+    color: snow;
+    padding: 0.3rem;
+    display: inline;
+}
