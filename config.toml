@@ -2,10 +2,8 @@ baseURL = 'http://danielmartinezolivas.com/'
 languageCode = 'en-us'
 DefaultContentLanguage = "en"
 title = 'Daniel Martinez'
+copyright = "This is a customized copyright."
 theme = "diary"
-
-[params]
-disableToC=false
 # favicon = "Your Favicon Address"
 # cloudflareToken = "your cloudflare web analytics token"
 # googleAnalytics = "UA-123-45"
@@ -45,5 +43,22 @@ weight = 1
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "monokai"
+    style = "perldoc"
     tabWidth = 4
+
+[params]
+    subtitle = "Personal Website."
+    enableGitalk = false
+    disableToC = false
+
+[params.gitalk]
+    owner = "user"
+    repo = "repo name"
+    client_id = "your client id"
+    client_secret = "your client secret"
+
+[params.utterances]
+    repo="your repo"
+    term="[ENTER TERM HERE]"
+    label="your label"
+    theme="github-light"
