@@ -2,13 +2,15 @@
 title: "Lissajous Curve"
 date: "2019-05-22"
 thumbnail: "harmonograp.jpg"
-tags: ["potter", "computer-art"]
-category: "plotter-drawings"
+tags: [potter, computer-art]
+categories: plotter-drawings
 description: "This is pretty much the first plot I made with my plotter."
+featured_image: "/images/plots/harmonograph/harmonograp-0.jpg"
+description: "Small Javascript web app to generate plans to cut boxes with hidden joints in CNC machines."
+comment : false
+enableLaTeX: false
+draft: false
 ---
-
-![Lissajous curve image](harmonograp.jpg)
-
 
 This is pretty much the first plot I made with my plotter. It is a curve related to [Lissajous curves](https://en.wikipedia.org/wiki/Lissajous_curve).
 

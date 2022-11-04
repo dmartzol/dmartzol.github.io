@@ -2,9 +2,13 @@
 title: "Magnetic Bar"
 date: "2019-02-19"
 thumbnail: "mag-0.jpg"
-tags: ["woodworking", "chess"]
-category: "woodworking"
+tags: [woddworking]
+categories: Woodworking
 description: "In the picture you can see just a wooden bar with magnets inside that allows me to hang papers or pictures attached to a binder clip."
+featured_image: "/images/magnetic/mag-0.jpg"
+comment : false
+enableLaTeX: false
+draft: false
 ---
 
 ![Magnetic Bar](mag-0.jpg)

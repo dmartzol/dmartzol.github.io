@@ -6,6 +6,9 @@ featured_image: "/images/joints/hidden.jpg"
 tags: [software, javascript]
 categories: Software
 description: "Small Javascript web app to generate plans to cut boxes with hidden joints in CNC machines."
+comment : false
+enableLaTeX: false
+draft: false
 ---
 
 ![box joins image](/static/images/joints/hidden.jpg)

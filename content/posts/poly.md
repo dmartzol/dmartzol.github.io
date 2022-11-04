@@ -1,10 +1,14 @@
 ---
 title: "Poly"
 date: "2019-01-22"
-thumbnail: "p200-n80000.png"
 tags: ["software", "go", "computer-art"]
-category: "software"
+categories: Software
 description: "Go CLI app to optimize the shape of n polygons for maximizing the resemblance to a any given picture."
+tags: [software]
+featured_image: "/images/poly/p200-n80000.png"
+comment : false
+enableLaTeX: false
+draft: false
 ---
 
 ![polygonal strawberry image](p200-n80000.png)
